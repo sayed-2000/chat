@@ -95,7 +95,7 @@ function LogIn() {
                                      </span>
                                 </div>
                                 <div className="input" style={myStyle}>
-                                <input type="Enter your password" placeholder='password' onChange={e => setPassword(e.target.value)}/>
+                                <input type="password" placeholder=' Enter your password' onChange={e => setPassword(e.target.value)}/>
                                      <span className="icon">
                                         <BiLock/>
                                      </span>

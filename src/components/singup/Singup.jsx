@@ -101,7 +101,7 @@ function Singup() {
                                              </span>
                                         </div>
                                         <div className="input">
-                                        <input type="number" placeholder=' Enter your password' onChange={e => setPassword(e.target.value)}/>
+                                        <input type="password" placeholder=' Enter your password' onChange={e => setPassword(e.target.value)}/>
                                              <span className="icon">
                                                 <BiLock/>
                                              </span>
